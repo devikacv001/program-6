@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: csbsdevopslab/node-js    # <-- your DockerHub username/repo
+          images: devikacv001/nodejs-app    # <-- your DockerHub username/repo
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
